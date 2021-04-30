@@ -37,7 +37,7 @@ else
 echo $_SERVER["DOCUMENT_ROOT"];
 echo $_SERVER["SERVER_PORT"]."<br>";
 echo $_SERVER["REMOTE_ADDR"]."<br>";
-echo $_SERVER["SERVER_ADDR"];
+//echo $_SERVER["SERVER_ADDR"];
 //phpinfo();
 function nbImpair(){
     for($a=0; $a<=150; $a++)
