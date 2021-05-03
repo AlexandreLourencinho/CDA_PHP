@@ -61,4 +61,5 @@ $capitales = array(
 );
 $pays ='0';
 $ville ='0';
+$nombre=0;
 ?>
