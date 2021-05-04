@@ -1,7 +1,7 @@
 <?php
 $titre = "exercice 3 php - les boucles";
-include "view/header.php";
-include "controller/boucles/exo3controller.php";
+include ($_SERVER['DOCUMENT_ROOT'])."/view/header.php";
+include ($_SERVER['DOCUMENT_ROOT'])."/controller/boucles/exo3controller.php";
 ?>
 <h1> Ecrire un script qui affiche la table de multiplication totale de {1,...,12} par {1,...,12} dans un tableau HTML  </h1>
 <br>
@@ -45,4 +45,4 @@ include "controller/boucles/exo3controller.php";
     </table>
 </div>
 <?php
-include "view/footer.php"; ?>
+include ($_SERVER['DOCUMENT_ROOT'])."/view/footer.php"; ?>

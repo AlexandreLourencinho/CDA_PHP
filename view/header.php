@@ -20,13 +20,6 @@
             <ul class="navbar-nav">
                 <li class="nav-item active">
                     <a class="nav-link" href="/index.php">Accueil</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Features</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Pricing</a>
-                </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Exercices PHP - les boucles
@@ -43,6 +36,16 @@
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                         <a class="dropdown-item" href="/view/tableaux/exo_1_php_tableau.php">exercice 1</a>
+                        <a class="dropdown-item" href="/view/tableaux/tableaux_exo_2.php">exercice 2</a>
+                        <a class="dropdown-item" href="/view/tableaux/exo_3_tableaux_php.php">Exercice 3</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Exercices PHP - les fonctions
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="/view/fonctions/fonctions_php_exo_1.php">exercice 1</a>
                         <a class="dropdown-item" href="/view/tableaux/tableaux_exo_2.php">exercice 2</a>
                         <a class="dropdown-item" href="/view/tableaux/exo_3_tableaux_php.php">Exercice 3</a>
                     </div>
