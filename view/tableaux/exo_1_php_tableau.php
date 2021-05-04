@@ -50,6 +50,8 @@ include "controller/tableaux/exo_1_php_tableau_controller.php";
             </table>
         </div>
     </div>
+
+
 <?php
 include "view/footer.php";
 ?>

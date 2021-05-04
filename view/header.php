@@ -44,7 +44,7 @@
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                         <a class="dropdown-item" href="/view/tableaux/exo_1_php_tableau.php">exercice 1</a>
                         <a class="dropdown-item" href="/view/tableaux/tableaux_exo_2.php">exercice 2</a>
-                        <a class="dropdown-item" href="/view/boucles/exo_3_boucles.php">Exercice 3</a>
+                        <a class="dropdown-item" href="/view/tableaux/exo_3_tableaux_php.php">Exercice 3</a>
                     </div>
                 </li>
             </ul>
