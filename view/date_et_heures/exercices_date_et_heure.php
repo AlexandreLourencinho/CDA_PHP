@@ -4,7 +4,12 @@ include $_SERVER['DOCUMENT_ROOT']."/controller/date_et_heures/exercices_date_et_
 include $_SERVER['DOCUMENT_ROOT']."/view/header.php";
 ?>
 
+<?php var_dump($date2);
+var_dump($datoj);
+var_dump($nbjour);
 
+
+?>
 
 
 
