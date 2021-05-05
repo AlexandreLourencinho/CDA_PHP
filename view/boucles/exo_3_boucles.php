@@ -15,7 +15,7 @@ include ($_SERVER['DOCUMENT_ROOT'])."/controller/boucles/exo3controller.php";
 
             </th>
             <?php
-            for( $u=1; $u<=12; $u++)
+            for( $u=0; $u<=12; $u++)
             { ?>
                 <th> <?= $u; ?></th>
             <?php } ?>
@@ -23,7 +23,7 @@ include ($_SERVER['DOCUMENT_ROOT'])."/controller/boucles/exo3controller.php";
             </thead>
             <tbody>
         <?php
-        for($z=1;$z<=12;$z++)
+        for($z=0;$z<=12;$z++)
         {
             ?>
 
@@ -33,7 +33,7 @@ include ($_SERVER['DOCUMENT_ROOT'])."/controller/boucles/exo3controller.php";
 
                 </th>
                 <?php
-                for( $b=1; $b<=12; $b++)
+                for( $b=0; $b<=12; $b++)
                 { ?>
                     <td>
                         <?= $z*$b ?>

@@ -60,7 +60,7 @@ include ($_SERVER['DOCUMENT_ROOT'])."/controller/tableaux/tableaux_exo_2_control
 
 <?php
 foreach ($capitales as $ville=>$pays) {
-    if(preg_match("#^B#", $ville)){
+    if(!preg_match("#^B#", $ville)){
         unset($capitales[$ville]);
     }
 } ?>
