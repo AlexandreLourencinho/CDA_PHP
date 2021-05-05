@@ -7,8 +7,6 @@ include $_SERVER['DOCUMENT_ROOT']."/view/header.php";
 <?php var_dump($date2);
 var_dump($datoj);
 var_dump($nbjour);
-
-
 ?>
 
 
