@@ -9,8 +9,8 @@ include ($_SERVER['DOCUMENT_ROOT'])."/controller/boucles/exo3controller.php";
 <br>
 <div class="table-responsive">
     <table class="table table-bordered table-striped table-dark table-hover col-12 col-lg-4">
+        <thead>
         <tr>
-            <thead>
             <th>
 
             </th>

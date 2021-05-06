@@ -53,9 +53,6 @@ include ($_SERVER['DOCUMENT_ROOT'])."/controller/tableaux/tableaux_exo_2_control
                 </tbody>
             </table>
         </div>
-        <?php
-        $nombre = count($capitales)
-        ?>
         <span><b>3) Il y a <?= $nombre ?> villes.</b></span>
 
 <?php

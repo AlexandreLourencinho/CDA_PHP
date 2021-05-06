@@ -1,6 +1,6 @@
 <?php
 $tableaumois = array("janvier" => 31,
-    "Février" => 27,
+    "Février" => 28,
     "mars" => 31,
     "arvril" => 30, "mai" => 31,
     "juin" => 30,
