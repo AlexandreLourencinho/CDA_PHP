@@ -24,7 +24,7 @@ function bisext($annee){
 $result=bisext("2010");
 //-------
 //date valide ou pas
-function datevalide($date)
+function dateValide($date)
 {
     DateTime::createFromFormat("d/m/Y", $date);
     $errors = DateTime::getLastErrors();
@@ -38,7 +38,8 @@ function datevalide($date)
 
     return $retour;
 }
-$message = datevalide("28/02/2019");
+$message = dateValide("32/17/2019");
+$message2=dateValide("31/12/2019");
 
 
 // afficher 11h25
