@@ -6,7 +6,7 @@ $mibelle=0;
 $tablo = array();
 ?>
 <?php
-function faireLien($lien, $libelle)
+function faireLien(string $lien, string $libelle)
 {
     ?>
     <a href="<?= $lien ?>"><?= $libelle ?> </a>
@@ -14,12 +14,8 @@ function faireLien($lien, $libelle)
 
     <!--OU-->
 <?php
-function faireLienDeux($lien2, $libelle2)
-{
-    echo "<a href='$lien2'> $libelle2</a>";
-}
 
-function fairelien3($libelle3, $lien3){
+function fairelien3(string $libelle3, string $lien3):array{
     $tablo=array($libelle3=>$lien3);
     return $tablo;
 }
