@@ -45,3 +45,11 @@ $message2=dateValide("31/12/2019");
 // afficher 11h25
 $timestamp1=time();
 $datoj2 = date("G\hi", $timestamp1);
+
+//ajouter 1 mois a la date du jour
+$dateplus = new DateTime();
+$dateplus->modify('+1 month');
+$dateaff=date_format($dateplus,'d-m-Y');
+
+// la date en timestamp
+$evenement = date("d-m-Y",1000200000);

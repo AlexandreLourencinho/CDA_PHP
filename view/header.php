@@ -56,8 +56,14 @@
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                         <a class="dropdown-item" href="/view/date_et_heures/exercices_date_et_heure.php">exercices</a>
-<!--                        <a class="dropdown-item" href="/view/fonctions/fonction_php_exo_2.php">exercice 2</a>-->
-<!--                        <a class="dropdown-item" href="/view/fonctions/fonction_php_exo_3.php">Exercice 3</a>-->
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Exercices PHP - manipulations sur les Fichiers
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="/view/date_et_heures/exercices_date_et_heure.php">exercices</a>
                     </div>
                 </li>
             </ul>

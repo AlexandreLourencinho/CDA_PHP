@@ -11,12 +11,6 @@ include $_SERVER['DOCUMENT_ROOT'] . "/controller/fonctions/fonctions_php_exo_1_c
     <p>< a href="< ?= $lien ?>"><*?= $libelle ?> < /a></p>
     <p>< ?php } ?></p></code>
 <span>pour ce lien :</span><?php faireLien("https://ncode.amorce.org/ressources/Pool/CDA/WEB_PHP_frc/PHP_05_Fonctions.html", "exo ncode"); ?>
-<p>voici le code de la fonction utilisée ici :</p>
-<code><p>function faireLien($debut , $fin){</p>
-    <p>echo $debut.$fin ;}</p></code>
-<span>Pour ce lien :</span><?php faireLienDeux("https://ncode.amorce.org/ressources/Pool/CDA/WEB_PHP_frc/PHP_05_Fonctions.html", "exo ncode2") ?>
-
-
 <p>
     voici le code de la fonction utilisée ici :
 </p>
