@@ -1,0 +1,33 @@
+// On déclare une variable dont la valeur (contenu) sera écrite dans le fichier
+$myVar = "Bonjour le monde 1212";
+
+// Ouverture en écriture seule
+$fp = fopen("essai.txt", "a");
+
+// Ecriture du contenu ($myVar)
+fputs($fp, $myVar);
+
+// Fermeture du fichier
+fclose($fp);
+// Ouverture en lecture seule
+$fp = fopen("essai.txt", "r");
+
+// Boucle jusqu'à la fin du fichier // feof renvoi false tant qu'il n'est pas a la fin du fichier, renvoi true quand il est a la fin du fichier
+while (!feof($fp))
+{
+    // Lecture d'une ligne, le contenu de la ligne est affecté à la variable $ligne
+    $ligne = fgets($fp, 4096);
+    echo $ligne."<br>";
+}
+
+
+// basename() renvoi le nom du fichier? exemple en dessous erenvoi essai.txt :
+$patsu = $_SERVER['DOCUMENT_ROOT']."/essai.txt";
+$file = basename($patsu);//renvoi essai.txt
+copy($patsu,$patsu.'.bak');// copie le fichier en lui ajoutant une extension .bak ici, ou n'importe laqulle, ou en ajoutant quelque chose au nom. peut être un compteur par exemple.
+// dirname() renvoi le répertoire dans lequel se trouve le fichier
+echo dirname($patsu); // ici, renvoi C:\Users\80010-02-06\Desktop\dossiers de dépots\CDA_PHP
+// file() lis l'ensemble d'un fichier et le renvoi dans un tableau, chaque ligne du tableau = une ligne du fichier
+// file_exists() returne true ou false si le fichier existe ou non
+// is_dir() retourne true si le fichier existe avec un répertoire
+// is_file() returne true si le fichier existe et est un "regular file" : (false si repertoire par ex)

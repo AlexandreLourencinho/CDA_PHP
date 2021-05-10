@@ -36,13 +36,12 @@ include $_SERVER['DOCUMENT_ROOT']."/view/header.php";
     <div class="d-flex flex-column">
     <span>est de : <?= $somme2 ?> .</span>
     <span>La fonction utilisée : </span>
-    <code><p>function calculSomme($tablo){
-        <p>
-        <p>$somme=0;</p>
+        <pre class="hljs-code"><code class="hljs xml"><p>function <span class="hljs">calculSomme</span>($tablo){</p>
+        <p>$somme=<span class="hljs-number">0</span>;</p>
         <p>foreach($tablo as $clef=>$valeur){</p>
         <p>$somme+=$valeur;}</p>
         <p>return $somme;}</p>
-    </code>
+    </code></pre>
     </div>
 </div>
 
