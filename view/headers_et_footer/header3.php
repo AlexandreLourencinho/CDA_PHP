@@ -26,7 +26,7 @@
             <span class="navbar-toggler-icon"></span>
         </button>
         <ul class="navbar-nav">
-            <li><a class="nav-link active text-info" href="#" id="navbarDropdownMenuLink">
+            <li><a class="nav-link active text-info" href="/view/eval_php/eval_php_artists.php" id="navbarDropdownMenuLink">
                     trucs
                 </a></li>
         </ul>
