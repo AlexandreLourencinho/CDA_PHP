@@ -2,8 +2,8 @@
 $titre = "Les fonctions - php - exercice 1";
 //include $_SERVER['DOCUMENT_ROOT'] . "/view/header.php";
 //include $_SERVER['DOCUMENT_ROOT'] . "/controller/fonctions/fonctions_php_exo_1_controller.php";
-include "./view/header.php";
-include "./controller/fonctions/fonctions_php_exo_1_controller.php";
+include "./view/headers_et_footer/header.php";
+include "./controller/exos_php_controllers/fonctions/fonctions_php_exo_1_controller.php";
 ?>
 <h1>Ecrivez une fonction qui permette de générer un lien.</h1>
 <a href="https://ncode.amorce.org/ressources/Pool/CDA/WEB_PHP_frc/PHP_05_Fonctions.html" title="Lien de l'énoncé">Lien
@@ -39,5 +39,5 @@ foreach ($tablo1 as $lib => $link) { ?>
 
 <?php
 //include $_SERVER['DOCUMENT_ROOT'] . "/view/footer.php";
-include "./view/footer.php";
+include "./view/headers_et_footer/footer.php";
 ?>

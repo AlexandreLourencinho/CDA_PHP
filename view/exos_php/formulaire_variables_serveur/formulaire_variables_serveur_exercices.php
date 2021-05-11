@@ -1,9 +1,9 @@
 <?php
 $titre = "Les formulaires et les variables serveur";
 //include $_SERVER['DOCUMENT_ROOT']."/view/header.php";
-include "./view/header.php";
+include "./view/headers_et_footer/header.php";
 //include $_SERVER['DOCUMENT_ROOT']."/controller/formulaire_variables_serveur/formulaire_variables_serveur_exercices_controller.php";
-include "./controller/formulaire_variables_serveur/formulaire_variables_serveur_exercices_controller.php";
+include "./controller/exos_php_controllers/formulaire_variables_serveur/formulaire_variables_serveur_exercices_controller.php";
 ?>
 <h1><u><b>Les formulaires et les variables serveur</b></u></h1>
 <p>Exercice : Reprenez le formulaire que vous avez réalisé dans la séance précédente (JavaScript). Dans ce formulaire, vous devez modifier l'attribut action de la balise form pour indiquer l'adresse d'un script PHP. Puis créer un script PHP permettant d'afficher l'ensemble des valeurs transmises.</p>
@@ -78,5 +78,5 @@ else{
 <?php
 }
 //include $_SERVER['DOCUMENT_ROOT']."/view/footer.php";
-include "./view/footer.php";
+include "./view/headers_et_footer/footer.php";
 ?>

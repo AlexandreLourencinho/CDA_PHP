@@ -2,8 +2,8 @@
 $titre = "tableaux exercice 2 : capitales";
 //include ($_SERVER['DOCUMENT_ROOT'])."/view/header.php";
 //include ($_SERVER['DOCUMENT_ROOT'])."/controller/tableaux/tableaux_exo_2_controller.php";$
-include "./view/header.php";
-include "./controller/tableaux/tableaux_exo_2_controller.php";
+include "./view/headers_et_footer/header.php";
+include "./controller/exos_php_controllers/tableaux/tableaux_exo_2_controller.php";
 ?>
 <p class="h3">1) Affichez la liste des capitales (par ordre alphabétique) suivie du nom du pays.</p>
 <p class="h3">2) Affichez la liste des pays (par ordre alphabétique) suivie du nom de la capitale.</p>
@@ -87,5 +87,5 @@ foreach ($capitales as $ville=>$pays) {
     </div>
 <?php
 //include ($_SERVER['DOCUMENT_ROOT'])."/view/footer.php";
-include "./view/footer.php";
+include "./view/headers_et_footer/footer.php";
 ?>

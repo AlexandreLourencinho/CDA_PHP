@@ -2,8 +2,8 @@
 $titre = "les fonctions - exercice 2";
 //include $_SERVER['DOCUMENT_ROOT']."/controller/fonctions/fonction_php_exo_2_controller.php";
 //include $_SERVER['DOCUMENT_ROOT']."/view/header.php";
-include "./controller/fonctions/fonction_php_exo_2_controller.php";
-include "./view/header.php";
+include "./controller/exos_php_controllers/fonctions/fonction_php_exo_2_controller.php";
+include "./view/headers_et_footer/header.php";
 ?>
 <h1>Ecrivez une fonction qui calcul la somme des valeurs d'un tableau</h1>
 <a href="https://ncode.amorce.org/ressources/Pool/CDA/WEB_PHP_frc/PHP_05_Fonctions.html" title="Enoncé de l'exercice">Enoncé
@@ -50,5 +50,5 @@ include "./view/header.php";
 
 <?php
 //include $_SERVER['DOCUMENT_ROOT']."/view/footer.php";
-include "./view/footer.php";
+include "./view/headers_et_footer/footer.php";
 ?>

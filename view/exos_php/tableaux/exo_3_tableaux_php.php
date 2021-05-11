@@ -2,8 +2,8 @@
 $titre = "exercice 3 php sur les tableaux";
 //include ($_SERVER['DOCUMENT_ROOT'])."/view/header.php";
 //include ($_SERVER['DOCUMENT_ROOT'])."/controller/tableaux/exo_3_tableaux_controller.php";
-include "./view/header.php";
-include "./controller/tableaux/exo_3_tableaux_controller.php";
+include "./view/headers_et_footer/header.php";
+include "./controller/exos_php_controllers/tableaux/exo_3_tableaux_controller.php";
 ?>
     <h1>1) Affichez la liste des régions (par ordre alphabétique) suivie du nom des départements</h1>
     <h1>2)Affichez la liste des régions suivie du nombre de départements</h1>
@@ -38,5 +38,5 @@ include "./controller/tableaux/exo_3_tableaux_controller.php";
     </div>
 <?php
 //include ($_SERVER['DOCUMENT_ROOT'])."/view/footer.php";
-include "./view/footer.php";
+include "./view/headers_et_footer/footer.php";
 ?>

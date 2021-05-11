@@ -2,8 +2,8 @@
 $titre = "exercice boucle php 1 : nombres impairs entre 0 et 150";
 //include ($_SERVER['DOCUMENT_ROOT'])."/view/header.php";
 //include ($_SERVER['DOCUMENT_ROOT'])."/controller/boucles/exo1controller.php";
-include "./view/header.php";
-include "./controller/boucles/exo1controller.php";
+include "./view/headers_et_footer/header.php";
+include "./controller/exos_php_controllers/boucles/exo1controller.php";
 ?>
 <a href="https://ncode.amorce.org/ressources/Pool/CDA/WEB_PHP_frc/PHP_03_Boucles.html" title="Lien vers les consignes de l'exercice">Lien vers l'énoncé de l'exercice</a>
 
@@ -21,6 +21,6 @@ if($a%2!=0)
 ?>
 <?php
 //include ($_SERVER['DOCUMENT_ROOT'])."/view/footer.php";$
-include "./view/footer.php";
+include "./view/headers_et_footer/footer.php";
 ?>
 

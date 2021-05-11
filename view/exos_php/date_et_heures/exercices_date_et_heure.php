@@ -2,8 +2,8 @@
 $titre = "date et heures - exercices";
 //include $_SERVER['DOCUMENT_ROOT']."/controller/date_et_heures/exercices_date_et_heure_controller.php";
 //include $_SERVER['DOCUMENT_ROOT']."/view/header.php";
-include "./controller/date_et_heures/exercices_date_et_heure_controller.php";
-include "./view/header.php";
+include "./controller/exos_php_controllers/date_et_heures/exercices_date_et_heure_controller.php";
+include "./view/headers_et_footer/header.php";
 ?>
 
     <div class="container align-items-center col-10">
@@ -163,5 +163,5 @@ include "./view/header.php";
 
 <?php
 //include $_SERVER['DOCUMENT_ROOT']."/view/footer.php";
-include "./view/footer.php";
+include "./view/headers_et_footer/footer.php";
 ?>
