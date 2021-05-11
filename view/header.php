@@ -13,7 +13,7 @@
 <body class="container col-10">
 <header class="sticky-top">
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
-        <a class="navbar-brand" href="#">Exos PHP</a>
+        <a class="navbar-brand" href="/index.php">Exos PHP</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
                 aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>

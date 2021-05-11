@@ -1,8 +1,9 @@
 <?php
 $titre = "Les formulaires et les variables serveur";
-include $_SERVER['DOCUMENT_ROOT']."/view/header.php";
-include $_SERVER['DOCUMENT_ROOT']."/controller/formulaire_variables_serveur/formulaire_variables_serveur_exercices_controller.php";
-
+//include $_SERVER['DOCUMENT_ROOT']."/view/header.php";
+include "./view/header.php";
+//include $_SERVER['DOCUMENT_ROOT']."/controller/formulaire_variables_serveur/formulaire_variables_serveur_exercices_controller.php";
+include "./controller/formulaire_variables_serveur/formulaire_variables_serveur_exercices_controller.php";
 ?>
 <h1><u><b>Les formulaires et les variables serveur</b></u></h1>
 <p>Exercice : Reprenez le formulaire que vous avez réalisé dans la séance précédente (JavaScript). Dans ce formulaire, vous devez modifier l'attribut action de la balise form pour indiquer l'adresse d'un script PHP. Puis créer un script PHP permettant d'afficher l'ensemble des valeurs transmises.</p>
@@ -10,9 +11,11 @@ include $_SERVER['DOCUMENT_ROOT']."/controller/formulaire_variables_serveur/form
 
 <?php
 
-
+//htmlspecialchars() ou htmlentities() : shutdown les caractères spéciaux html niveau interpretation.
+// recup les value pouir pas tout reremplir : value="<?= isset($_POST['champ']) ? $_POST['champ] : '' ? > "
 //echo $_SERVER['PHP_SELF'];
 if(isset($_POST['envoi'])){
+    var_dump($_POST);
     ?>
 <p>Bonjour <?= $_POST['nom']." ,".$_POST['prenom'] ?>. Le sujet de votre message est :" <?= $_POST['sujet'] ?> ", votre
 email est le : <?= $_POST['mail'] ?> et votre message est le suivant : <?= $_POST['message'] ?> . </p>

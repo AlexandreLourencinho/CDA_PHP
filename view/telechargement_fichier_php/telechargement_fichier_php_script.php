@@ -1,7 +1,7 @@
 <?php
 $titre = "manip fichiers - exo 1";
 include $_SERVER['DOCUMENT_ROOT'] . "/view/header.php";
-include $_SERVER['DOCUMENT_ROOT'] . "/controller/telechargement_fichier_php/exo_telechargement_fichier_php_controller.php";
+include $_SERVER['DOCUMENT_ROOT']."/controller/telechargement_fichier_php/exo_telechargement_fichier_php_controller.php";
 if(isset($_POST['envoi'])) {
 
     var_dump($_FILES);
@@ -19,6 +19,7 @@ if (in_array($typeMime, $tableTypesMimes))
     /* Le type est parmi ceux autorisés, donc OK, on va pouvoir
        déplacer et renommer le fichier */
     move_uploaded_file($_FILES["fichier"]["tmp_name"], $_SERVER['DOCUMENT_ROOT']."/view/assets/images/".$_FILES['fichier']['name'].".jpg");
+    chmod($_SERVER['DOCUMENT_ROOT']."/view/assets/images/".$_FILES['fichier']['name'].".jpg",0444);
 }
 else
 {

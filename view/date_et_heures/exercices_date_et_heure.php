@@ -1,7 +1,9 @@
 <?php
 $titre = "date et heures - exercices";
-include $_SERVER['DOCUMENT_ROOT']."/controller/date_et_heures/exercices_date_et_heure_controller.php";
-include $_SERVER['DOCUMENT_ROOT']."/view/header.php";
+//include $_SERVER['DOCUMENT_ROOT']."/controller/date_et_heures/exercices_date_et_heure_controller.php";
+//include $_SERVER['DOCUMENT_ROOT']."/view/header.php";
+include "./controller/date_et_heures/exercices_date_et_heure_controller.php";
+include "./view/header.php";
 ?>
 
     <div class="container align-items-center col-10">

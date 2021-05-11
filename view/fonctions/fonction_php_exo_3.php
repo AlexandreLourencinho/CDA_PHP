@@ -1,7 +1,9 @@
 <?php
 $titre = " Fonctions php : exercice 3";
-include $_SERVER['DOCUMENT_ROOT']."/view/header.php";
-include $_SERVER['DOCUMENT_ROOT']."/controller/fonctions/fonction_php_exo_3_controller.php";
+//include $_SERVER['DOCUMENT_ROOT']."/view/header.php";
+//include $_SERVER['DOCUMENT_ROOT']."/controller/fonctions/fonction_php_exo_3_controller.php";
+include "./view/header.php";
+include "./controller/fonctions/fonction_php_exo_3_controller.php";
 ?>
     <h1>Créer une fonction qui vérifie le niveau de complexité d'un mot de passe : 8 char de longueur, au moins 1
         chiffre, une majuscule, une minuscule</h1>
