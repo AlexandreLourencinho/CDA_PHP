@@ -85,6 +85,16 @@
                    href="/view/formulaire_variables_serveur/formulaire_variables_serveur_exercices.php">exercices</a>
             </div>
         </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                   aria-haspopup="true" aria-expanded="false">
+                    Exercices PHP - Upload de fichiers
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item"
+                       href="/view/telechargement_fichier_php/exo_telechargement_fichier_php.php">exercices</a>
+                </div>
+            </li>
         </ul>
         </div>
     </nav>
