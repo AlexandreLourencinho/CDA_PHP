@@ -1,7 +1,9 @@
 <?php
 $titre = "manip fichiers - exo 1";
-include $_SERVER['DOCUMENT_ROOT'] . "/view/header.php";
-include $_SERVER['DOCUMENT_ROOT'] . "/controller/manip_fichiers/php_manip_fichiers_exo_1_controller.php";
+//include $_SERVER['DOCUMENT_ROOT'] . "/view/header.php";
+//include $_SERVER['DOCUMENT_ROOT'] . "/controller/manip_fichiers/php_manip_fichiers_exo_1_controller.php";
+include "./view/header.php";
+include "./controller/manip_fichiers/php_manip_fichiers_exo_1_controller.php";
 ?>
 <h4><u><b>Exercices :
             Lecture d'un fichier.
@@ -74,6 +76,7 @@ include $_SERVER['DOCUMENT_ROOT'] . "/controller/manip_fichiers/php_manip_fichie
     </table>
 </div>
 <?php
-include $_SERVER['DOCUMENT_ROOT'] . "/view/footer.php";
+//include $_SERVER['DOCUMENT_ROOT'] . "/view/footer.php";
+include "./view/footer.php";
 ?>
 

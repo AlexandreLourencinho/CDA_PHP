@@ -38,5 +38,6 @@ include "./controller/telechargement_fichier_php/exo_telechargement_fichier_php_
 
 
 <?php
-include $_SERVER['DOCUMENT_ROOT']."/view/footer.php";
+//include $_SERVER['DOCUMENT_ROOT']."/view/footer.php";
+include "./view/footer.php";
 ?>

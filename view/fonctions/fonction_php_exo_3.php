@@ -99,5 +99,6 @@ include "./controller/fonctions/fonction_php_exo_3_controller.php";
 
 
 <?php
-include $_SERVER['DOCUMENT_ROOT'] . "/view/footer.php";
+//include $_SERVER['DOCUMENT_ROOT'] . "/view/footer.php";
+include "./view/footer.php";
 ?>

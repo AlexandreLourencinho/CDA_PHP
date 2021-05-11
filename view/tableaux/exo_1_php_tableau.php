@@ -1,7 +1,9 @@
 <?php
 $titre = "php - exercice 1 les tableaux";
-include ($_SERVER['DOCUMENT_ROOT'])."/view/header.php";
-include ($_SERVER['DOCUMENT_ROOT'])."/controller/tableaux/exo_1_php_tableau_controller.php";
+//include ($_SERVER['DOCUMENT_ROOT'])."/view/header.php";
+//include ($_SERVER['DOCUMENT_ROOT'])."/controller/tableaux/exo_1_php_tableau_controller.php";
+include "./view/header.php";
+include "./controller/tableaux/exo_1_php_tableau_controller.php";
 ?>
     <h1></h1>
     <a href="https://ncode.amorce.org/ressources/Pool/CDA/WEB_PHP_frc/PHP_04_Tableaux.html"
@@ -53,5 +55,6 @@ include ($_SERVER['DOCUMENT_ROOT'])."/controller/tableaux/exo_1_php_tableau_cont
 
 
 <?php
-include ($_SERVER['DOCUMENT_ROOT'])."/view/footer.php";
+//include ($_SERVER['DOCUMENT_ROOT'])."/view/footer.php";
+include "./view/footer.php";
 ?>

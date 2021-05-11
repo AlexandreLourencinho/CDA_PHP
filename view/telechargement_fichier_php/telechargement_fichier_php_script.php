@@ -1,7 +1,9 @@
 <?php
 $titre = "manip fichiers - exo 1";
-include $_SERVER['DOCUMENT_ROOT'] . "/view/header.php";
-include $_SERVER['DOCUMENT_ROOT']."/controller/telechargement_fichier_php/exo_telechargement_fichier_php_controller.php";
+//include $_SERVER['DOCUMENT_ROOT'] . "/view/header.php";
+//include $_SERVER['DOCUMENT_ROOT']."/controller/telechargement_fichier_php/exo_telechargement_fichier_php_controller.php";
+include "./view/header.php";
+include "./controller/telechargement_fichier_php/exo_telechargement_fichier_php_controller.php";
 if(isset($_POST['envoi'])) {
 
     var_dump($_FILES);
@@ -57,5 +59,7 @@ else
 
 
 <?php
-include $_SERVER['DOCUMENT_ROOT']."/view/footer.php";
+//include $_SERVER['DOCUMENT_ROOT']."/view/footer.php";
+include "./view/footer.php";
 ?>
+

@@ -162,5 +162,6 @@ include "./view/header.php";
     </div>
 
 <?php
-include $_SERVER['DOCUMENT_ROOT']."/view/footer.php";
+//include $_SERVER['DOCUMENT_ROOT']."/view/footer.php";
+include "./view/footer.php";
 ?>

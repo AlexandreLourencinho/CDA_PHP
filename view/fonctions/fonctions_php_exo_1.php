@@ -38,6 +38,6 @@ foreach ($tablo1 as $lib => $link) { ?>
 
 
 <?php
-
-include $_SERVER['DOCUMENT_ROOT'] . "/view/footer.php";
+//include $_SERVER['DOCUMENT_ROOT'] . "/view/footer.php";
+include "./view/footer.php";
 ?>
