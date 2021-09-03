@@ -24,4 +24,11 @@ var_dump($tableaudisques);
 // $tableau = $requete->fetchAll(PDO::FETCH_OBJ) sous forme d'objet.
 // note : demander la diff avec FETCH_both/num/assoc/column/unique/key_pair/into... etc
 // https://phpdelusions.net/pdo/fetch_modes
+//--------------------------------------------
+// le $requete->execute() peut aussi s'utiliser comme suit :
+// même requete qu'au dessus avec l'ID; $requete->execute(array(':id'=>$id) OU $requete->execute(array($id))
+// si requete = SELECT * FROM TABLE WHERE ID=:id AND name=:name
+// $requete->execute(array(':id'=>$id, ':name"=>$name) OU $requete->execute(array($id,$name))
+//encore d'autres syntaxes mais ça ira hein non mais oh,j'vais pas apprendre php.net par coeur non plus
+
 

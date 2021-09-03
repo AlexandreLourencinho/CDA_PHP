@@ -1,5 +1,5 @@
 <?php
-$host="127.0.0.1:3306";
+$host="127.0.0.1:3308";
 $dbname="record";
 $charset="UTF8";
 $user="root";
